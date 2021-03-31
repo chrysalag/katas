@@ -27,7 +27,7 @@ def decodeMorse(morseCode)
     words.each { |word|
         letters = word.split(" ")
         letters.each { |letter|
-        answer << MORSE_CODE[letter]    
+            answer << MORSE_CODE[letter]    
         }
         answer << ' '
     }
